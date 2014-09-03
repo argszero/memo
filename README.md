@@ -18,10 +18,10 @@ Linux
  * 新建一个管道
  * 建立定时任务，每天将管道的内容定向到不同文件
  * 将nohup输出到此管道
- * 例
-   * 新建管道: mknod mypipe p
-   * 建立定时任务，每天将管道的内容定向到不同文件
-    * 新建脚本:<pre>
+* 例
+  * 新建管道: mknod mypipe p
+  * 建立定时任务，每天将管道的内容定向到不同文件
+   * 新建脚本:<pre>
 cat << EOF > rolllog.sh
 > dir=$(cd $(dirname $BASH_SOURCE); pwd)
 > lsof $dir/xxx.log|tail -1|awk '{print "kill " $2}'|sh
@@ -29,5 +29,5 @@ cat << EOF > rolllog.sh
 > nohup cat < $dir/mypipe >> $dir/xxx.log & > /dev/null 2>&1
 > EOF
   </pre>
-    * 定时执行脚本： crontab -e 0 * * * * /XX/rolllog.sh
-   * 将nohup输出到此管道: nohup xxx.sh > $dir/mypipe 2>&1 &
+  * 定时执行脚本： crontab -e 0 * * * * /XX/rolllog.sh
+ * 将nohup输出到此管道: nohup xxx.sh > $dir/mypipe 2>&1 &
