@@ -24,10 +24,10 @@ Linux
    * 新建脚本:<pre>
 cat << EOF > rolllog.sh
 > dir=$(cd $(dirname $BASH_SOURCE); pwd)
-> lsof $dir/xxx.log|tail -1|awk '{print "kill " $2}'|sh
-> mv $dir/xxx.log $dir/spark-sql-`date +%Y%m%d%H%M`.log
+> /usr/sbin/lsof $dir/xxx.log |awk 'NR>1 {print "kill "$2}'|sh
+> mv $dir/xxx.log $dir/xxx-`date +%Y%m%d%H%M`.log
 > nohup cat < $dir/mypipe >> $dir/xxx.log & > /dev/null 2>&1
 > EOF
   </pre>
-  * 定时执行脚本： crontab -e 0 * * * * /XX/rolllog.sh
+  * 定时执行脚本： crontab -e 0 * * * * /XXx/rolllog.sh
  * 将nohup输出到此管道: nohup xxx.sh > $dir/mypipe 2>&1 &
