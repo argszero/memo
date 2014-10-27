@@ -4,3 +4,13 @@
 * 1. 笔记本一台ThinkPadT440p，通过有线+代理上网
 * 2. 要求手机通过笔记本共享的wifi直接上网，不需手机侧配置代理
 
+## 步骤
+ * 1. 检查网卡及驱动是否支持
+  * 1.1 查找无线网卡设备名称：lshw -C network
+        ‘’‘
+        ...
+        description: Wireless interface
+        logical name: wlp4s0
+        ...
+        ’‘’
+
