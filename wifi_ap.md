@@ -183,7 +183,7 @@
 	http_access deny all
 	
 	# Squid normally listens to port 3128
-	cache_peer 10.1.1.21  parent 8080 0 no-query proxy-only login=ailk\userxxx:pwdxxx connect-timeout=10
+	cache_peer 10.1.1.21  parent 8080 0 no-query proxy-only login=ailk\userxx:pwdxx connect-timeout=10
 	never_direct allow all
 	#透明
 	http_port 3128 transparent
