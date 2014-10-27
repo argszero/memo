@@ -236,7 +236,8 @@
 	iptables -t nat -A PREROUTING -i $1 -p tcp -m tcp -j REDIRECT --to-port 3128
 	
 	#Thanks to lorenzo
-	#Uncomment the line below if facing problems while sharing PPPoE, see lorenzo's comment for more details
+	#Uncomment the line below if facing problems while sharing PPPoE, 
+	#see lorenzo's comment for more details
 	#iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 	 
 	sysctl -w net.ipv4.ip_forward=1
