@@ -7,10 +7,10 @@
 ## 步骤
  * 1. 检查网卡及驱动是否支持
   * 1.1 查找无线网卡设备名称：lshw -C network
-        ‘’‘
+‘’‘
         ...
         description: Wireless interface
         logical name: wlp4s0
         ...
-        ’‘’
+’‘’
 
