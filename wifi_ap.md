@@ -247,5 +247,5 @@
 	killall dhcpd
 ```
  * 9. 启动
- * 1. 选择无线网卡，选择Turn Off
- * 2. nohup ./initSoftAP wlp4s0 eth0  &
+  * 1. 选择无线网卡，选择Turn Off
+  * 2. nohup ./initSoftAP wlp4s0 eth0  &
