@@ -209,44 +209,38 @@
         vim initSoftAP
 ```
 ```
-        #!/bin/bash
-        service restart squid
-	#Initial wifi interface configuration
-	ifconfig $1 down
-	ifconfig $1 up 10.0.0.1 netmask 255.255.255.0
-	sleep 2
-	###########Start DHCP, comment out / add relevant section##########
-	#Thanks to Panji
-	#Doesn't try to run dhcpd when already running
-	if [ "$(ps -e | grep dhcpd)" == "" ]; then
-	dhcpd $1 &
-	fi
-	###########
-	#Enable NAT
-	#iptables --flush
-	#iptables --table nat --flush
-	#iptables --delete-chain
-	#iptables --table nat --delete-chain
-	#iptables --table nat --append POSTROUTING --out-interface $2 -j MASQUERADE
-	#iptables --append FORWARD --in-interface $1 -j ACCEPT
-	iptables -t nat -A POSTROUTING -o $2 -j MASQUERADE
-	#将80流量转发到代理服务器3128端口
-	iptables -t nat -A PREROUTING -i $1 -p tcp -m tcp --dport 80 -j REDIRECT --to-port 3128
-	#将所有流量转发到代理服务器3128端口，因为有些应用不是走的80端口
-	iptables -t nat -A PREROUTING -i $1 -p tcp -m tcp -j REDIRECT --to-port 3128
-	
-	#Thanks to lorenzo
-	#Uncomment the line below if facing problems while sharing PPPoE, 
-	#see lorenzo's comment for more details
-	#iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
-	 
-	sysctl -w net.ipv4.ip_forward=1
-	#start hostapd
-	#hostapd /etc/hostapd/hostapd.conf 1>/dev/null
-	rfkill unblock wlan
-	hostapd /etc/hostapd/hostapd.conf 1>hostapd.log
-	killall dhcpd
+#!/bin/bash
+#Initial wifi interface configuration
+ifconfig wlp4s0 down
+ifconfig wlp4s0 up 10.0.0.1 netmask 255.255.255.0
+sleep 2
+###########Start DHCP, comment out / add relevant section##########
+#Thanks to Panji
+#Doesn't try to run dhcpd when already running
+if [ "$(ps -e | grep dhcpd)" == "" ]; then
+dhcpd wlp4s0 &
+fi
+###########
+#Enable NAT
+iptables --flush
+iptables --table nat --flush
+iptables --delete-chain
+iptables --table nat --delete-chain
+iptables --table nat --append POSTROUTING --out-interface em1 -j MASQUERADE
+iptables --append FORWARD --in-interface wlp4s0 -j ACCEPT
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp -j REDIRECT --to-port 3128
+
+#Thanks to lorenzo
+#Uncomment the line below if facing problems while sharing PPPoE, see lorenzo's comment for more details
+#iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+ 
+sysctl -w net.ipv4.ip_forward=1
+#start hostapd
+#hostapd /etc/hostapd/hostapd.conf 1>/dev/null
+rfkill unblock wlan
+hostapd /etc/hostapd/hostapd.conf 1>hostapd.log
+killall dhcpd
 ```
  * 9. 启动
   * 1. 选择无线网卡，选择Turn Off
-  * 2. nohup ./initSoftAP wlp4s0 eth0  &
+  * 2. nohup ./initSoftAP&
