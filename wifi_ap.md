@@ -228,7 +228,10 @@ iptables --delete-chain
 iptables --table nat --delete-chain
 iptables --table nat --append POSTROUTING --out-interface em1 -j MASQUERADE
 iptables --append FORWARD --in-interface wlp4s0 -j ACCEPT
-iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp -j REDIRECT --to-port 3128
+#iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp -j REDIRECT --to-port 3128
+#redirect all request from all port(except 3128) to port 3128
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp ! --dport 3128 -j REDIRECT --to-port 3128
+
 
 #Thanks to lorenzo
 #Uncomment the line below if facing problems while sharing PPPoE, see lorenzo's comment for more details
