@@ -228,15 +228,13 @@ iptables --delete-chain
 iptables --table nat --delete-chain
 iptables --table nat --append POSTROUTING --out-interface em1 -j MASQUERADE
 iptables --append FORWARD --in-interface wlp4s0 -j ACCEPT
-#iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp -j REDIRECT --to-port 3128
-#redirect all request from all port(except 3128) to port 3128
-iptables -t nat -A PREROUTING -i wlp4s0 -p tcp -m tcp ! --dport 3128 -j REDIRECT --to-port 3128
 
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp --match multiport --dports 1:24 -j REDIRECT --to-port 3128
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp --match multiport --dports 26:109 -j REDIRECT --to-port 3128
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp --match multiport --dports 111:442 -j REDIRECT --to-port 3128
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp --match multiport --dports 444:3127 -j REDIRECT --to-port 3128
+iptables -t nat -A PREROUTING -i wlp4s0 -p tcp --match multiport --dports 3129:65535 -j REDIRECT --to-port 3128
 
-#Thanks to lorenzo
-#Uncomment the line below if facing problems while sharing PPPoE, see lorenzo's comment for more details
-#iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
- 
 sysctl -w net.ipv4.ip_forward=1
 #start hostapd
 #hostapd /etc/hostapd/hostapd.conf 1>/dev/null
