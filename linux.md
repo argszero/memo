@@ -9,5 +9,8 @@
 ## dstat:linux综合性性能监控工具
 综合了vmstat, iostat, nfsstat, netstat, ifstat等的功能。
 
-##其他
+## fedora切换桌面
+fedora可以使用```Ctrl```+```Alt```+```F1..F12``` 切换桌面
+
+## 其他
 /usr/sbin/accton /var/account/pacct　dump-acct pacc
