@@ -21,8 +21,8 @@ fedora可以使用```Ctrl```+```Alt```+```F1..F12``` 切换桌面
 ```
 ## 互信
 ```
-ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa;
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys;
 chmod go-w $HOME $HOME/.ssh;chmod 600 $HOME/.ssh/authorized_keys;
 ```
 
