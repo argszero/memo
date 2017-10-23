@@ -19,6 +19,12 @@ fedora可以使用```Ctrl```+```Alt```+```F1..F12``` 切换桌面
 # hostnamectl set-hostname Your-New-Host-Name-Here --static
 # hostnamectl set-hostname Your-New-Host-Name-Here --transient
 ```
+## 互信
+```
+ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod go-w $HOME $HOME/.ssh;chmod 600 $HOME/.ssh/authorized_keys;
+```
 
 ## 其他
 /usr/sbin/accton /var/account/pacct　dump-acct pacc
