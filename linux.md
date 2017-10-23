@@ -12,5 +12,13 @@
 ## fedora切换桌面
 fedora可以使用```Ctrl```+```Alt```+```F1..F12``` 切换桌面
 
+## centos修改主机名称
+```
+# hostnamectl set-hostname Your-New-Host-Name-Here
+# hostnamectl set-hostname "Your New Host Name Here" --pretty
+# hostnamectl set-hostname Your-New-Host-Name-Here --static
+# hostnamectl set-hostname Your-New-Host-Name-Here --transient
+```
+
 ## 其他
 /usr/sbin/accton /var/account/pacct　dump-acct pacc
