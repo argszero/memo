@@ -12,3 +12,8 @@ https://docs.docker.com/engine/installation/linux/linux-postinstall/#manage-dock
 sudo groupadd docker
 udo usermod -aG docker $USER
 ```
+## 通过ssh直接连接docker container
+https://docs.docker.com/engine/examples/running_ssh_service/
+
+对于centos,需要在修改sshd_config之前，先生成，即添加
+```RUN /usr/bin/ssh-keygen -A```
