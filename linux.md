@@ -26,5 +26,12 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys;
 chmod go-w $HOME $HOME/.ssh;chmod 600 $HOME/.ssh/authorized_keys;
 ```
 
+## 防火墙添加白名单
+firewall-cmd --zone=public --add-port=80/tcp
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+
+## 防火墙端口转发
+firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8080
+
 ## 其他
 /usr/sbin/accton /var/account/pacct　dump-acct pacc
