@@ -9,3 +9,9 @@ SELECT (data_length+index_length)/power(1024,3) size,table_schema,table_name
 FROM information_schema.tables 
 ORDER BY size desc limit 10;
 ```
+
+## 释放表空间
+?
+```
+optimize table 
+```
