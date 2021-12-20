@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T02:10:33.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="w0WIk-ARiT9gPWdUi1Kj" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T02:11:14.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="XlNbkKYFxexiBTWh8uT5" version="15.9.6" type="github">
   <diagram id="ZvAKp3XvdwQ_buqutIbB" name="Page-1">
     <mxGraphModel dx="1773" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,20 +129,16 @@
             <mxPoint x="-7" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-42" value="" style="group" vertex="1" connectable="0" parent="oxgK3gGT6i_MZKTimfoy-31">
-          <mxGeometry x="7" y="90" width="170" height="110" as="geometry" />
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-73" value="" style="perimeter=none;dashed=0;shape=rect;shadow=1;gradientColor=#ffffff;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-31">
+          <mxGeometry x="230" y="70" width="121" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-43" value="品牌巨量花费对比" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-42">
-          <mxGeometry width="170" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-44" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.columnChart;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-42">
-          <mxGeometry x="6" y="35" width="158" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-45" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22dashed%3D0%3Bhtml%3D1%3Bshape%3Dmxgraph.gmdl.settings%3BstrokeColor%3Dnone%3BfillColor%3D%23000000%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22584%22%20y%3D%22114%22%20width%3D%225%22%20height%3D%2216%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="dashed=0;html=1;shape=mxgraph.gmdl.settings;strokeColor=none;fillColor=#000000;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-42">
-          <mxGeometry x="160" y="5" width="5" height="16" as="geometry" />
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-74" value="添加图表" style="perimeter=none;dashed=0;shape=mxgraph.gmdl.preview;verticalAlign=middle;align=left;labelPosition=right;fontSize=15;spacing=16;resizeWidth=1;strokeColor=none;fillColor=#747474;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-73">
+          <mxGeometry width="11.388235294117647" height="12" relative="1" as="geometry">
+            <mxPoint x="17" y="16" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-46" value="" style="group" vertex="1" connectable="0" parent="oxgK3gGT6i_MZKTimfoy-31">
-          <mxGeometry x="7" y="210" width="170" height="110" as="geometry" />
+          <mxGeometry x="10" y="90" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-47" value="品牌XXX巨量花费" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-46">
           <mxGeometry width="170" height="110" as="geometry" />
