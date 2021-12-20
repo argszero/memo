@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T02:01:29.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="38cDv4fFbw6hL_g9CWib" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T02:10:33.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="w0WIk-ARiT9gPWdUi1Kj" version="15.9.6" type="github">
   <diagram id="ZvAKp3XvdwQ_buqutIbB" name="Page-1">
-    <mxGraphModel dx="946" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hYK_bFj1lpAIACNKmPJ8-103" value="" style="dashed=0;align=center;fontSize=12;shape=rect;" parent="1" vertex="1">
-          <mxGeometry x="241" y="20" width="360" height="642" as="geometry" />
+          <mxGeometry x="241" y="20" width="379" height="642" as="geometry" />
         </mxCell>
         <mxCell id="hYK_bFj1lpAIACNKmPJ8-104" value="12:30" style="dashed=0;align=center;fontSize=12;shape=rect;align=right;fillColor=#000000;strokeColor=none;fontColor=#FFFFFF;spacingRight=4;spacingTop=1;fontStyle=0;fontSize=13;resizeWidth=1;" parent="hYK_bFj1lpAIACNKmPJ8-103" vertex="1">
           <mxGeometry width="358" height="24" relative="1" as="geometry" />
@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-20" value="" style="group" vertex="1" connectable="0" parent="hYK_bFj1lpAIACNKmPJ8-103">
-          <mxGeometry x="7" y="90" width="170" height="110" as="geometry" />
+          <mxGeometry x="9" y="90" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-12" value="品牌巨量花费对比" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
           <mxGeometry width="170" height="110" as="geometry" />
@@ -61,6 +61,22 @@
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-30" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22dashed%3D0%3Bhtml%3D1%3Bshape%3Dmxgraph.gmdl.settings%3BstrokeColor%3Dnone%3BfillColor%3D%23000000%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22584%22%20y%3D%22114%22%20width%3D%225%22%20height%3D%2216%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="dashed=0;html=1;shape=mxgraph.gmdl.settings;strokeColor=none;fillColor=#000000;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
           <mxGeometry x="160" y="5" width="5" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-55" value="" style="dashed=0;html=1;shape=mxgraph.gmdl.plus;strokeColor=#737373;strokeWidth=2;shadow=0;sketch=0;" vertex="1" parent="hYK_bFj1lpAIACNKmPJ8-103">
+          <mxGeometry x="-241" y="20" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-58" value="" style="perimeter=none;dashed=0;shape=rect;shadow=1;gradientColor=#ffffff;" vertex="1" parent="hYK_bFj1lpAIACNKmPJ8-103">
+          <mxGeometry x="239" y="70" width="121" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-59" value="添加图表" style="perimeter=none;dashed=0;shape=mxgraph.gmdl.preview;verticalAlign=middle;align=left;labelPosition=right;fontSize=15;spacing=16;resizeWidth=1;strokeColor=none;fillColor=#747474;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-58">
+          <mxGeometry width="11.388235294117647" height="12" relative="1" as="geometry">
+            <mxPoint x="17" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-60" value="设置品牌" style="perimeter=none;dashed=0;shape=mxgraph.gmdl.share3;verticalAlign=middle;align=left;labelPosition=right;fontSize=15;spacing=16;resizeWidth=1;strokeColor=none;fillColor=#747474;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-58">
+          <mxGeometry width="12.811764705882354" height="14" relative="1" as="geometry">
+            <mxPoint x="16" y="57" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-31" value="" style="dashed=0;align=center;fontSize=12;shape=rect;" vertex="1" parent="1">
           <mxGeometry x="680" y="20" width="360" height="642" as="geometry" />
