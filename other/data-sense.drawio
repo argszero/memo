@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T01:49:32.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="-PG5v3kV2K4sClHHWY3O" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T01:51:46.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="nLta-DayffDKFgCJTHVv" version="15.9.6" type="github">
   <diagram id="ZvAKp3XvdwQ_buqutIbB" name="Page-1">
     <mxGraphModel dx="946" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,10 +58,19 @@
         <mxCell id="oxgK3gGT6i_MZKTimfoy-20" value="" style="group" vertex="1" connectable="0" parent="hYK_bFj1lpAIACNKmPJ8-103">
           <mxGeometry x="7" y="90" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-12" value="品牌XXX巨量花费" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-12" value="品牌巨量花费对比" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
           <mxGeometry width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oxgK3gGT6i_MZKTimfoy-17" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-28" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.columnChart;strokeColor2=none;strokeColor3=#666666;fillColor2=#008cff;fillColor3=#dddddd;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-20">
+          <mxGeometry x="6" y="35" width="158" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-24" value="" style="group" vertex="1" connectable="0" parent="hYK_bFj1lpAIACNKmPJ8-103">
+          <mxGeometry x="7" y="210" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-25" value="品牌XXX巨量花费" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-24">
+          <mxGeometry width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oxgK3gGT6i_MZKTimfoy-26" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.lineChart;strokeColor2=#666666;strokeColor3=#008cff;strokeColor4=#dddddd;" vertex="1" parent="oxgK3gGT6i_MZKTimfoy-24">
           <mxGeometry x="5" y="30" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oxgK3gGT6i_MZKTimfoy-21" value="" style="group" vertex="1" connectable="0" parent="1">
