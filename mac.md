@@ -15,8 +15,16 @@ export HISTTIMEFORMAT="[$(tput setaf 6)%F %T$(tput sgr0)]: " # colorful date
 # mac下maven配置文件目录
 /usr/local/Cellar/maven/3.5.2/libexec/conf/settings.xml
 
+<<<<<<< Updated upstream
 # max下vscode中vim插件连续移动需要多次按键而不能按住不动的问题
 ```
   https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode/44010683#44010683
   控制台里执行：defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false，然后重启vscode
 ```
+=======
+# 命令行sudo 支持touch id
+
+sudo vim /etc/pam.d/sudo
+add:
+auth sufficient pam_tid.so
+>>>>>>> Stashed changes

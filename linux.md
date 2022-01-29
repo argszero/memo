@@ -14,10 +14,11 @@ fedora可以使用```Ctrl```+```Alt```+```F1..F12``` 切换桌面
 
 ## centos修改主机名称
 ```
-# hostnamectl set-hostname Your-New-Host-Name-Here
-# hostnamectl set-hostname "Your New Host Name Here" --pretty
-# hostnamectl set-hostname Your-New-Host-Name-Here --static
-# hostnamectl set-hostname Your-New-Host-Name-Here --transient
+h_name=Your-New-Host-Name-Here
+hostnamectl set-hostname $h_name
+hostnamectl set-hostname $h_name --pretty
+hostnamectl set-hostname $h_name --static
+hostnamectl set-hostname $h_name --transient
 ```
 ## 互信
 ```
@@ -35,3 +36,18 @@ firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8080
 
 ## 其他
 /usr/sbin/accton /var/account/pacct　dump-acct pacc
+
+
+## 使用rsync 拷贝文件
+
+rsync -azPrd crmi:~/lab/lab-open-taobao-java ./
+
+## 回复rm的文件
+
+如果进程还没停止，可以使用lsof 查看到文件id
+比如：
+lsof -p 6429|grep member
+java    6429 root   10u   REG              253,1 524214272     425676 /root/lab/lab-open-taobao-java/target/member.db (deleted)
+
+然后拷贝出来就可以了：
+cp /proc/6429/fd/10 restor_member.db

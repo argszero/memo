@@ -15,7 +15,12 @@ ORDER BY size desc limit 10;
 optimize table 
 ```
 
+<<<<<<< Updated upstream
 ## 查询对某个表对引用（外键）
 ```
 select * from information_schema.key_column_usage where referenced_table_name = '表名';
 ```
+=======
+
+defaults write com.oracle.workbench.MySQLWorkbench NSRequiresAquaSystemAppearance -bool yes
+>>>>>>> Stashed changes
