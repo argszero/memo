@@ -1,0 +1,172 @@
+{
+    "modify_time": "e553f2c56c9062c521519be189764201",
+    "inventory_type": [],
+    "smart_inventory": 1,
+    "native_type": 0,
+    "creative_info": {
+        "0": [],
+        "2": [],
+        "3": [
+            {
+                "image_id": 1711115309656078,
+                "material_combine_type": 0,
+                "title": "不要钱！{地点}人在这里买超划算！",
+                "title_id": 1711115309655070,
+                "creative_id": 1711115296115751,
+                "template_version": "96779fcb8d614022f0d43d4abbf3c068",
+                "title_draft_id": 1711115309655054,
+                "dpa_word_list": [],
+                "is_dynamic": 1,
+                "image_mode": 3,
+                "image_info": [
+                    {
+                        "web_uri": "web.business.image/202109172d0ec21d801d067141f7a02f",
+                        "template_setting": {
+                            "image": {
+                                "is_selected": true,
+                                "height": 391,
+                                "width": 585,
+                                "web_uri": "ad.site.pc.material.public/image_0d55f5154248f629847f8952a78662e0.png",
+                                "y0": 9,
+                                "x0": -80,
+                                "z0": 1
+                            },
+                            "product_name": {
+                                "font_size": 42,
+                                "is_selected": true,
+                                "align_type": 0,
+                                "priceUnit": false,
+                                "color": "#ffffff",
+                                "max_lines": 1,
+                                "ver_align_type": 0,
+                                "runes_in_line": 10,
+                                "msg": "前端工程师",
+                                "y0": 176,
+                                "x0": 425,
+                                "z0": 3
+                            },
+                            "address": {
+                                "font_size": 24,
+                                "is_selected": true,
+                                "align_type": 0,
+                                "priceUnit": false,
+                                "color": "#ffffff",
+                                "max_lines": 1,
+                                "ver_align_type": 0,
+                                "runes_in_line": 10,
+                                "msg": "5000-10000",
+                                "y0": 239,
+                                "x0": 483,
+                                "z0": 4
+                            }
+                        },
+                        "template_version": "96779fcb8d614022f0d43d4abbf3c068",
+                        "template_logos": [
+                            {
+                                "is_selected": true,
+                                "height": 80,
+                                "width": 80,
+                                "y0": 14,
+                                "x0": 14,
+                                "z0": 5,
+                                "display": false
+                            }
+                        ],
+                        "height": 388,
+                        "template_image_uri": "web.business.image/202109172d0ec21d801d067141f7a02f",
+                        "template_masks": [
+                            {
+                                "is_selected": true,
+                                "height": 388,
+                                "width": 690,
+                                "web_uri": "ad.site.pc.material.public/image_aa75e5c8ea8c53b70f3cfc2fa7aac999.png",
+                                "y0": 0,
+                                "x0": 0,
+                                "z0": 2
+                            }
+                        ],
+                        "sign_url": "https://p0-adplatform-private.oceanengine.com/web.business.image/202109172d0ec21d801d067141f7a02f~tplv-iq460dd072-origin.image?policy=eyJ2bSI6MywidWlkIjoiMzk0MDI1ODcwMDU5MzA4MyJ9&sign_for=ad_platform&x-orig-authkey=70a8271f785ca02810bd93583f91fdec&x-orig-expires=1638551648&x-orig-sign=a6CaOHcL2HR3FrGr2JU0ohktO6M%3D",
+                        "synergy_template_setting": [],
+                        "width": 690,
+                        "template_id": 2560,
+                        "template_image_sign_url": "https://p0-adplatform-private.oceanengine.com/web.business.image/202109172d0ec21d801d067141f7a02f~tplv-iq460dd072-origin.image?policy=eyJ2bSI6MywidWlkIjoiMzk0MDI1ODcwMDU5MzA4MyJ9&sign_for=ad_platform&x-orig-authkey=70a8271f785ca02810bd93583f91fdec&x-orig-expires=1638551648&x-orig-sign=a6CaOHcL2HR3FrGr2JU0ohktO6M%3D"
+                    }
+                ],
+                "component_info": [],
+                "word_list": [
+                    {
+                        "max_word_len": 4,
+                        "default_word": "本地",
+                        "dict_name": "地点",
+                        "word_id": 4
+                    }
+                ],
+                "template_id": 1,
+                "derive_poster_cid": 0,
+                "image_draft_id": 1711115309655102,
+                "defaultTitleText": "不要钱！本地人在这里买超划算！",
+                "base_component_info": []
+            }
+        ],
+        "4": [],
+        "5": [],
+        "7": [],
+        "11": [],
+        "15": [],
+        "16": [],
+        "100": [],
+        "101": [],
+        "131": [],
+        "139": [],
+        "148": [],
+        "154": [],
+        "156": [],
+        "157": [],
+        "166": [],
+        "170": [],
+        "171": [],
+        "649501": [],
+        "649502": [],
+        "649503": [],
+        "649504": [],
+        "649505": [],
+        "649506": [],
+        "649507": [],
+        "649508": [],
+        "[3, 16]": [],
+        "[5, 15]": [],
+        "[13987913, 13987914]": [],
+        "649504,649505,649506": []
+    },
+    "creative_material_mode": 2,
+    "creative_display_mode": 0,
+    "titleInfo": {
+        "type": "",
+        "request_ids": [
+            1718100620739636
+        ],
+        "is_click": 0
+    },
+    "title_list": [],
+    "comment_ban_status": 0,
+    "is_comment_disable": 0,
+    "source": "地球",
+    "style_type": 10,
+    "ad_download_status": 0,
+    "base_component_info": [],
+    "component_info": [],
+    "old_component_type": 0,
+    "ad_keywords": [],
+    "main_brand": "",
+    "industry": [],
+    "disable_advanced_creative": 1,
+    "track_url": [
+        "https://www.baidu.com?k=test1"
+    ],
+    "action_track_url": [],
+    "first_frame": [],
+    "last_frame": [],
+    "manual_frame": [],
+    "effective_frame": [],
+    "ad_id": "1711115139878973"
+}

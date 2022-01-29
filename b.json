@@ -1,0 +1,138 @@
+{
+    "modify_time": "2eed9e183d64955ae6a77a4bad011567",
+    "has_creative": true,
+    "video_sync": 0,
+    "is_shadow_ad": false,
+    "advertiser_name": "\u65b0\u7565\u6570\u667a",
+    "creative_material_mode": 2,
+    "delivery_union_type": null,
+    "disable_advanced_creative": 1,
+    "is_smart_title": 0,
+    "sub_title": "",
+    "source": "\u5730\u7403",
+    "auto_advanced": 0,
+    "advanced_creative_type": 0,
+    "ad_category": 0,
+    "ad_category_detail": 0,
+    "ad_keywords": null,
+    "style_type": 10,
+    "collocation_type": 0,
+    "industry_v3": 0,
+    "advertiser_id": 1675627889686539,
+    "url_type": 0,
+    "creative_info": {
+        "3": [
+            {
+                "image_id": 1711115309656078,
+                "material_combine_type": 0,
+                "title": "\u4e0d\u8981\u94b1\uff01{\u5730\u70b9}\u4eba\u5728\u8fd9\u91cc\u4e70\u8d85\u5212\u7b97\uff01",
+                "title_id": 1711115309655070,
+                "creative_id": 1711115296115751,
+                "template_version": "96779fcb8d614022f0d43d4abbf3c068",
+                "title_draft_id": 1711115309655054,
+                "dpa_word_list": [],
+                "is_dynamic": 1,
+                "image_mode": 3,
+                "image_info": [
+                    {
+                        "web_uri": "web.business.image/202109172d0ec21d801d067141f7a02f",
+                        "template_setting": {
+                            "image": {
+                                "is_selected": true,
+                                "height": 391,
+                                "width": 585,
+                                "web_uri": "ad.site.pc.material.public/image_0d55f5154248f629847f8952a78662e0.png",
+                                "y0": 9,
+                                "x0": -80,
+                                "z0": 1
+                            },
+                            "product_name": {
+                                "font_size": 42,
+                                "is_selected": true,
+                                "align_type": 0,
+                                "priceUnit": false,
+                                "color": "#ffffff",
+                                "max_lines": 1,
+                                "ver_align_type": 0,
+                                "runes_in_line": 10,
+                                "msg": "\u524d\u7aef\u5de5\u7a0b\u5e08",
+                                "y0": 176,
+                                "x0": 425,
+                                "z0": 3
+                            },
+                            "address": {
+                                "font_size": 24,
+                                "is_selected": true,
+                                "align_type": 0,
+                                "priceUnit": false,
+                                "color": "#ffffff",
+                                "max_lines": 1,
+                                "ver_align_type": 0,
+                                "runes_in_line": 10,
+                                "msg": "5000-10000",
+                                "y0": 239,
+                                "x0": 483,
+                                "z0": 4
+                            }
+                        },
+                        "template_version": "96779fcb8d614022f0d43d4abbf3c068",
+                        "template_logos": [
+                            {
+                                "is_selected": true,
+                                "height": 80,
+                                "width": 80,
+                                "y0": 14,
+                                "x0": 14,
+                                "z0": 5,
+                                "display": false
+                            }
+                        ],
+                        "height": 388,
+                        "template_image_uri": "web.business.image/202109172d0ec21d801d067141f7a02f",
+                        "template_masks": [
+                            {
+                                "is_selected": true,
+                                "height": 388,
+                                "width": 690,
+                                "web_uri": "ad.site.pc.material.public/image_aa75e5c8ea8c53b70f3cfc2fa7aac999.png",
+                                "y0": 0,
+                                "x0": 0,
+                                "z0": 2
+                            }
+                        ],
+                        "sign_url": "https://p0-adplatform-private.oceanengine.com/web.business.image/202109172d0ec21d801d067141f7a02f~tplv-iq460dd072-origin.image?policy=eyJ2bSI6MywidWlkIjoiMzk0MDI1ODcwMDU5MzA4MyJ9&sign_for=ad_platform&x-orig-authkey=70a8271f785ca02810bd93583f91fdec&x-orig-expires=1638552410&x-orig-sign=jwzDUqtBPeEs26USm%2FyfIxh48oQ%3D",
+                        "synergy_template_setting": [],
+                        "width": 690,
+                        "template_id": 2560,
+                        "template_image_sign_url": "https://p0-adplatform-private.oceanengine.com/web.business.image/202109172d0ec21d801d067141f7a02f~tplv-iq460dd072-origin.image?policy=eyJ2bSI6MywidWlkIjoiMzk0MDI1ODcwMDU5MzA4MyJ9&sign_for=ad_platform&x-orig-authkey=70a8271f785ca02810bd93583f91fdec&x-orig-expires=1638552410&x-orig-sign=jwzDUqtBPeEs26USm%2FyfIxh48oQ%3D"
+                    }
+                ],
+                "component_info": [],
+                "word_list": [
+                    {
+                        "max_word_len": 4,
+                        "default_word": "\u672c\u5730",
+                        "dict_name": "\u5730\u70b9",
+                        "word_id": 4
+                    }
+                ],
+                "template_id": 1,
+                "derive_poster_cid": 0,
+                "image_draft_id": 1711115309655102
+            }
+        ]
+    },
+    "landing_type": 5,
+    "old_component_type": 0,
+    "is_comment_disable": 0,
+    "creative_display_mode": 0,
+    "delivery_range": 1,
+    "creative_auto_generate_switch": 0,
+    "external_type": 102,
+    "entry": [
+        0
+    ],
+    "dynamic_creative_switch": [],
+    "ad_download_status": 0,
+    "external_url": "m.vip.com"
+}

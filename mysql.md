@@ -11,7 +11,11 @@ ORDER BY size desc limit 10;
 ```
 
 ## 释放表空间
-?
 ```
 optimize table 
+```
+
+## 查询对某个表对引用（外键）
+```
+select * from information_schema.key_column_usage where referenced_table_name = '表名';
 ```
