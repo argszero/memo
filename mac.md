@@ -18,7 +18,8 @@ export HISTTIMEFORMAT="[$(tput setaf 6)%F %T$(tput sgr0)]: " # colorful date
 # max下vscode中vim插件连续移动需要多次按键而不能按住不动的问题
 ```
   https://stackoverflow.com/questions/39972335/how-do-i-press-and-hold-a-key-and-have-it-repeat-in-vscode/44010683#44010683
-  控制台里执行：defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false，然后重启vscode
+  控制台里执行：defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool falseaaaa，然后重启vscode
+  defaults write com.todesktop.230313mzl4w4u92 ApplePressAndHoldEnabled -bool false
 ```
 # 命令行sudo 支持touch id
 
