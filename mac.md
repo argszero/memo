@@ -29,3 +29,11 @@ auth sufficient pam_tid.so
 auth  sufficient    pam_tid.so
 
 docker run --name mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=test -p 3306:3306 -d mysql:8
+
+# asdf mvn不能识别 asdf的java的问题
+
+修改/Users/argszero/.asdf/shims/mvn,添加
+```
+# export JAVA_HOME=$(java -XshowSettings:properties -version 2>&1 | grep 'java.home' | awk '{print $3}')
+export JAVA_HOME=$(asdf where java)
+```
